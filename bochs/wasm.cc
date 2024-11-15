@@ -3301,7 +3301,8 @@ static int try_get_fd(SocketState *s)
 {
   int sock = 3;
   if ((s->raw_flag != NULL) && (!strncmp(s->raw_flag, "socket=", 7))) {
-    // TODO: allow specifying more options
+    // use the listenfd for indicate the listen fd in wasm 
+    // likes --net=socket=listenfd=1024
     if (!strncmp(s->raw_flag + 7, "listenfd=", 9)) {
       sock = atoi(s->raw_flag + 7 + 9);
     }
