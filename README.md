@@ -64,18 +64,3 @@ out your changes on a real operating system immediately!
 ### Disk Images 
 Our collection of disk images is getting out of date. It would be great to 
 have small or large images of a variety of free operating systems.
-
-### Documentation 
-Adding installation help and other useful information into the docs.
-
-
-## Papers/Presentations
-
-* Bochs was presented at ISCA-35 in Beijing, China at "The 1st Workshop on 
-Architectural and Microarchitectural Support for Binary Translation" by a 
-paper "Virtualization without direct execution - designing a portable VM".
-  * [Paper](https://bochs.sourceforge.io/Virtualization_Without_Hardware_Final.pdf)
-  * [Slides](http://bochs.sourceforge.net/VirtNoJit.pdf)
-
-## Authors
-Bochs was originally written by Kevin Lawton and is currently maintained by this project.
