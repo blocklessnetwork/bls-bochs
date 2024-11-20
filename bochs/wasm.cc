@@ -3204,12 +3204,12 @@ static EthernetDevice *socket_net_init()
     SocketState *s;
 
     net = (EthernetDevice *)mallocz(sizeof(*net));
-    net->mac_addr[0] = 0x62;
-    net->mac_addr[1] = 0x6c;
-    net->mac_addr[2] = 0x73;
-    net->mac_addr[3] = 0x2d;
-    net->mac_addr[4] = 0x72;
-    net->mac_addr[5] = 0x74;
+    net->mac_addr[0] = 0x02;
+    net->mac_addr[1] = 0x00;
+    net->mac_addr[2] = 0x00;
+    net->mac_addr[3] = 0x00;
+    net->mac_addr[4] = 0x00;
+    net->mac_addr[5] = 0x01;
     net->opaque = NULL;
     s = (SocketState *)mallocz(sizeof(*s));
     s->fd = -1;
